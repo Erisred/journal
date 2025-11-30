@@ -1,0 +1,54 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+$rouge: #FF554A;
+$lightGreen: #4CAF50;
+$green: green;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$lighterGray: #fafafa;
+$white: #fff;
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+$bg-color-main: $darkerGray;
+$bg-color-second: $darkGray;
+$text-color-main: $lightGray;
+$text-color-second: $lighterGray;
+$text-color-header: $gray;
+$link-text-color: $text-color-main;
+$link-text-color-visited: $link-text-color;
+$h2-flair-color: rgb(192, 211, 218);
+
+$h1-header-color: $text-color-main;
+$h2-header-color: $text-color-main;
+$h3-header-color: $text-color-main;
+$h4-header-color: $text-color-main;
+
+$post-tag-color: $lightGreen;
+$pullquote-color: $green;
+
+$table-border-color: $gray;
+$table-border-color-alt: $lightGray;
+$table-bg-color: $darkGray;
+$table-bg-color-alt: $darkerGray;
+$table-bg-header-color: $black;
